@@ -15,6 +15,7 @@
 
 @property (weak, nonatomic) IBOutlet FRDLivelyButton *burgerButton;
 @property (weak, nonatomic) IBOutlet FRDLivelyButton *plustButton;
+@property (weak, nonatomic) IBOutlet FRDLivelyButton *minusButton;
 @property (weak, nonatomic) IBOutlet FRDLivelyButton *plusCircleButton;
 @property (weak, nonatomic) IBOutlet FRDLivelyButton *closeButton;
 @property (weak, nonatomic) IBOutlet FRDLivelyButton *closeCircleButton;
@@ -49,6 +50,7 @@
     [self.burgerButton setStyle:kFRDLivelyButtonStyleHamburger animated:NO];
     [self.plusCircleButton setStyle:kFRDLivelyButtonStyleCirclePlus animated:NO];
     [self.plustButton setStyle:kFRDLivelyButtonStylePlus animated:NO];
+    [self.minusButton setStyle:kFRDLivelyButtonStyleMinus animated:NO];
     [self.closeButton setStyle:kFRDLivelyButtonStyleClose animated:NO];
     [self.closeCircleButton setStyle:kFRDLivelyButtonStyleCircleClose animated:NO];
     [self.upCaretButton setStyle:kFRDLivelyButtonStyleCaretUp animated:NO];

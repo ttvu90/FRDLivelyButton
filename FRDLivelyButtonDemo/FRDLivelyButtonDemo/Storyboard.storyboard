@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="p8i-3l-B29">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="p8i-3l-B29">
     <dependencies>
         <deployment defaultVersion="1552" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--Test View Controller - FRDLivelyButton-->
@@ -141,6 +141,16 @@
                                     <action selector="changeButtonStyleAction:" destination="s51-Nb-ZXD" eventType="touchUpInside" id="bBY-x3-Cae"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GiN-Kb-Z5q" customClass="FRDLivelyButton">
+                                <rect key="frame" x="200" y="186" width="38" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeButtonStyleAction:" destination="s51-Nb-ZXD" eventType="touchUpInside" id="eni-N1-zU2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -153,6 +163,7 @@
                         <outlet property="downCaretButton" destination="JGa-di-8gl" id="a1B-0u-Qb4"/>
                         <outlet property="leftArrowButton" destination="N5n-d1-IRU" id="Ejz-6K-hT3"/>
                         <outlet property="leftCaretButton" destination="0SI-OE-MYo" id="pTg-Ig-2KD"/>
+                        <outlet property="minusButton" destination="GiN-Kb-Z5q" id="1ai-v0-MhO"/>
                         <outlet property="plusCircleButton" destination="Fnb-sA-OE9" id="O3C-0M-RGx"/>
                         <outlet property="plustButton" destination="79g-6E-ejR" id="MDm-rL-KaH"/>
                         <outlet property="rightArrowButton" destination="Upr-uE-HSQ" id="ulS-nu-Ncu"/>
